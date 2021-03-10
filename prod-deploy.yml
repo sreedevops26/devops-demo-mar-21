@@ -18,7 +18,7 @@
      pause:
        seconds: 5
    
-   - name: start nginx service inside container
-     command: docker exec -it webapp /bin/sh -c "service nginx start" 
+   #- name: start nginx service inside container
+   #  command: docker exec -it webapp /bin/sh -c "service nginx start" 
 
 
