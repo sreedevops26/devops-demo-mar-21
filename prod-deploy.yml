@@ -12,7 +12,7 @@
      ignore_errors: true
 
    - name: bringup application
-     raw: docker-compose -f /root/devops-demo-mar-app-compose-21 up -d
+     raw: docker-compose -f /root/devops-demo-mar-app-compose-21.yml up -d
 
    - name: pause 1 minute to bringup webapp container
      pause:
