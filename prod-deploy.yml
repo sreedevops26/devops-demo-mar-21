@@ -19,6 +19,6 @@
        seconds: 5
    
    - name: start nginx service inside container
-     raw: docker exec -it webapp /bin/sh -c "service nginx start" 
+     command: docker exec -it webapp /bin/sh -c "service nginx start" 
 
 
