@@ -8,7 +8,7 @@
      copy: src=/var/lib/jenkins/workspace/cloudtech21-demo/devops-demo-mar-app-compose-21.yml dest=/root
 
    - name: bringdown compose file if already container is running
-     raw: docker-compose -f /root/devops-demo-mar-app-compose-21 down
+     raw: docker-compose -f /root/devops-demo-mar-app-compose-21.yml down
      ignore_errors: true
 
    - name: bringup application
