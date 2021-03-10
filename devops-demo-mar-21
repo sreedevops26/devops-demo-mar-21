@@ -7,7 +7,7 @@ stage('checkout scm')
 {
 steps
 {
-git credentialsId: 'github-creds', url: 'https://github.com/sreedevops26/demo-jan-2021.git'
+git credentialsId: 'github-creds', url: 'https://github.com/sreedevops26/devops-demo-mar-21.git'
 }
 }
 stage('execute dockerfile and build image')
