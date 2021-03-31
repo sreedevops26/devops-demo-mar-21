@@ -27,6 +27,7 @@ withDockerRegistry([credentialsId: 'docker-creds',  url: 'https://index.docker.i
 }
 }
 }
+//addig deploy step here
 stage('deploy app on prod')
 {
 steps
